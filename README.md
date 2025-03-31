@@ -1,2 +1,2 @@
-# AR-XRI3-Shoot
- 3D AR shooter.
+# AR-XRI3-Demos
+AR in-class demos for AR/VR for Games.
