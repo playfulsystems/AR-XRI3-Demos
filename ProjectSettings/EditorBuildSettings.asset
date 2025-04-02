@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
+    path: Assets/Scenes/Setup.unity
+    guid: dded25332a5f542eb94c3212f00b65a8
+  - enabled: 0
     path: Assets/Scenes/Shoot.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/Scenes/PlaneDetectionOld.unity
+    guid: ed906888e60a747799e7e0ed327a90f7
+  - enabled: 1
+    path: Assets/Scenes/PlaneDetection.unity
+    guid: e5625e0ef29dc4badb899838b794c0f8
   - enabled: 0
     path: Assets/Samples/XR Interaction Toolkit/3.0.7/AR Starter Assets/ARDemoScene.unity
     guid: da4db6c21a88243878fecfe160c1be3b
