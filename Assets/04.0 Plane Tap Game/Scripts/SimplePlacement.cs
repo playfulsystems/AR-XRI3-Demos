@@ -1,22 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
-using UnityEngine.InputSystem;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
-using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Inputs.Readers;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
-using UnityEngine.XR.Interaction.Toolkit.Samples.ARStarterAssets;
 using UnityEngine.XR.Interaction.Toolkit.Utilities;
 
-public class ObjectPlacementSpawner : MonoBehaviour
+public class SimplePlacement : MonoBehaviour
 {
     public XRRayInteractor ARInteractor;
     public GameObject SpawnObjectPrefab;
-    public bool RequireHorizontalUpSurface;
     public XRInputButtonReader SpawnObjectInput;
+    public UnityEvent ObjectPlaced;
     
     Camera cameraToFace;
     bool attemptSpawn;
@@ -53,10 +49,6 @@ public class ObjectPlacementSpawner : MonoBehaviour
                 if (!(arRaycastHit.trackable is ARPlane arPlane))
                     return;
     
-                // if only horizontal planes
-                if (RequireHorizontalUpSurface && arPlane.alignment != PlaneAlignment.HorizontalUp)
-                    return;
-    
                 SpawnObject(arRaycastHit.pose.position, arPlane.normal);
             }
     
@@ -88,8 +80,8 @@ public class ObjectPlacementSpawner : MonoBehaviour
         BurstMathUtility.ProjectOnPlane(forward, spawnNormal, out var projectedForward);
         newObject.transform.rotation = Quaternion.LookRotation(projectedForward, spawnNormal);
 
+        // call an event that you've placed an object 
+        ObjectPlaced.Invoke();
+
     }
-
 }
-
-
