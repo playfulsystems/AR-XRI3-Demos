@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/03.0 Plane and Object Manipulation/PlaneDetection.unity
     guid: e5625e0ef29dc4badb899838b794c0f8
-  - enabled: 0
+  - enabled: 1
     path: Assets/04.0 Plane Tap Game/PlaneTapGame.unity
     guid: e625aaa09e6374a0a87cd94f1fe0faec
-  - enabled: 1
+  - enabled: 0
     path: Assets/05.0 Image Tracking/ImageTracking.unity
     guid: 4e9e77b161fcd403a8f247c128e31d0b
   - enabled: 0
