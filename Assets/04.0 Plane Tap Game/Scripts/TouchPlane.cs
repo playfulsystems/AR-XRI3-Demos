@@ -2,8 +2,6 @@ using NUnit.Framework.Constraints;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
-using UnityEngine.XR.Interaction.Toolkit;
-using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class TouchPlane : MonoBehaviour, IPointerDownHandler
 {
@@ -12,7 +10,7 @@ public class TouchPlane : MonoBehaviour, IPointerDownHandler
     public MeshRenderer MeshRenderer;
     public UnityEvent TouchComplete;
     bool isHighlighted = false;
-    
+
     public void OnPointerDown(PointerEventData eventData)
     {
         if (isHighlighted)
@@ -34,16 +32,4 @@ public class TouchPlane : MonoBehaviour, IPointerDownHandler
         }
         isHighlighted = highlighted;
     }
-    
-    // void Awake()
-    // {
-    //     var interactable = GetComponent<XRGrabInteractable>();
-    //     interactable.selectEntered.AddListener(OnSelectEntered);
-    // }
-    //
-    // private void OnSelectEntered(SelectEnterEventArgs args)
-    // {
-    //     Debug.Log(gameObject.name + " was tapped!");
-    //     MeshRenderer.material = HighlightMaterial;
-    // }
 }
