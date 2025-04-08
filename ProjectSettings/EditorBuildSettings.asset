@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/05.0 Image Tracking/ImageTracking.unity
     guid: 4e9e77b161fcd403a8f247c128e31d0b
   - enabled: 0
+    path: Assets/07.0 Faceball/Faceball.unity
+    guid: 3636c9e1e87514826a3461cf1a5dfee8
+  - enabled: 0
     path: Assets/Samples/XR Interaction Toolkit/3.0.7/AR Starter Assets/ARDemoScene.unity
     guid: da4db6c21a88243878fecfe160c1be3b
   m_configObjects:
