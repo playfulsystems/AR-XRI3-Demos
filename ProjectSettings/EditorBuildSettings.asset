@@ -14,13 +14,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/03.0 Plane and Object Manipulation/PlaneDetection.unity
     guid: e5625e0ef29dc4badb899838b794c0f8
-  - enabled: 1
+  - enabled: 0
     path: Assets/04.0 Plane Tap Game/PlaneTapGame.unity
     guid: e625aaa09e6374a0a87cd94f1fe0faec
   - enabled: 0
     path: Assets/05.0 Image Tracking/ImageTracking.unity
     guid: 4e9e77b161fcd403a8f247c128e31d0b
   - enabled: 0
+    path: Assets/06.0 Face Tracking/FaceTracking.unity
+    guid: cab3d223c6407450b98a07f58b9fd88b
+  - enabled: 1
     path: Assets/07.0 Faceball/Faceball.unity
     guid: 3636c9e1e87514826a3461cf1a5dfee8
   - enabled: 0

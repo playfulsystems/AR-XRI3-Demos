@@ -1,0 +1,2 @@
+/Users/jonahwarren/Docs/Unity/GDD/314/AR/2025/AR-XRI3-Demos/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt
+/Users/jonahwarren/Docs/Unity/GDD/314/AR/2025/AR-XRI3-Demos/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/CMakeLists.txt

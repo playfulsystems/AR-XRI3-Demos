@@ -1,0 +1,28 @@
+{
+  "buildFiles": [
+    "/Users/jonahwarren/Docs/Unity/GDD/314/AR/2025/AR-XRI3-Demos/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt",
+    "/Users/jonahwarren/Docs/Unity/GDD/314/AR/2025/AR-XRI3-Demos/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Applications/Unity/Hub/Editor/6000.0.31f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/jonahwarren/Docs/Unity/GDD/314/AR/2025/AR-XRI3-Demos/.utmp/Debug/485j6027/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Applications/Unity/Hub/Editor/6000.0.31f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/jonahwarren/Docs/Unity/GDD/314/AR/2025/AR-XRI3-Demos/.utmp/Debug/485j6027/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "game::@d02bb112ea9f9c2ed29f": {
+      "artifactName": "game",
+      "abi": "arm64-v8a",
+      "output": "/Users/jonahwarren/Docs/Unity/GDD/314/AR/2025/AR-XRI3-Demos/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/485j6027/obj/arm64-v8a/libgame.so",
+      "runtimeFiles": []
+    }
+  }
+}
